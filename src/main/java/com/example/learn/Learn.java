@@ -1,12 +1,19 @@
 package com.example.learn;
 
+import com.example.learn.controllers.MyController;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
 
 @SpringBootApplication
 public class Learn {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Learn.class, args);
+		ApplicationContext ctx = SpringApplication.run(Learn.class, args);
+
+		MyController myController = (MyController) ctx.getBean("myController");
+
+		String greeting = myController.sayHello();
+		System.out.println(greeting);
 	}
 }
