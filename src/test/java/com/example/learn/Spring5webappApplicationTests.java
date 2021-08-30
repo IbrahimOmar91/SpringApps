@@ -1,4 +1,4 @@
-package guru.springframework.spring5webapp;
+package com.example.learn;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,8 +1,8 @@
-package guru.springframework.spring5webapp.bootstrap;
+package com.example.learn.bootstrap;
 
-import guru.springframework.spring5webapp.repositories.AuthorRepo;
-import guru.springframework.spring5webapp.repositories.BookRepo;
-import guru.springframework.spring5webapp.repositories.PublisherRepo;
+import com.example.learn.repositories.AuthorRepo;
+import com.example.learn.repositories.BookRepo;
+import com.example.learn.repositories.PublisherRepo;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 

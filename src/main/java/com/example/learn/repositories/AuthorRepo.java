@@ -1,6 +1,6 @@
-package guru.springframework.spring5webapp.repositories;
+package com.example.learn.repositories;
 
-import guru.springframework.spring5webapp.domain.Author;
+import com.example.learn.domain.Author;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
